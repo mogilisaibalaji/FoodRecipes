@@ -1,4 +1,5 @@
- import Recipe  from "./Recipe";
+import Recipe  from "./Recipe";
+import Footer from "./Footer";
 import "./Home.css";
 
         function Home(){
@@ -10,7 +11,7 @@ import "./Home.css";
             </div>
             <div>
                 <div>
-                    <p className="label">South Indian Break Fast</p>
+                    <h3 className="label">South Indian Break Fast</h3>
                 </div>
                 <div className="South-img">
                     <img src="./dosa.jpeg"  alt="dosa"/>
@@ -22,9 +23,15 @@ import "./Home.css";
                 <div className="item-button">
                    <div><Recipe/></div>
                 </div>
-                <div></div>
             </div>
-              <div style={{ height: "1000px"}} />
+
+            <div className="footer">
+                <div>
+                    <Footer />
+                </div>
+                
+            </div>
+              <div style={{ height: "300px"}} />
         </>
     )
 }

@@ -1,0 +1,34 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+  color: #4b0082; /* purple text like screenshot */
+}
+
+.footer-categories {
+  margin-bottom: 15px;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.footer-categories span {
+  margin: 0 4px;
+}
+
+.footer-links {
+  margin: 15px 0;
+  font-size: 15px;
+  color: black;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-bottom .credits {
+  font-size: 13px;
+  color: gray;
+}
