@@ -7,10 +7,16 @@ export default function App() {
   return (
     <BrowserRouter>
       <nav>
-        <Link to="/">Home</Link>|{" "}
-        <Link to="/About">About</Link>|{" "}
-        <Link to="/Categories">Categories</Link> |{" "}
-    
+        <div className='nav-right'>
+          <Link to="/">Home</Link>|{" "}
+          <Link to='/explore'>Explore</Link> |{" "}
+          <Link to="/Categories">Categories</Link> |{" "}
+        </div>
+
+        <div className='nav-Left'>
+          <Link to="/About" >About</Link>|{" "}
+           <img src="/admin.png" alt="Login" className="login-icon" />
+        </div>
       </nav>
 
       <Routes>

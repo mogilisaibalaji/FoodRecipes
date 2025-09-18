@@ -43,36 +43,46 @@ html, body, #root {
 .label{
     margin-left: 45%;
     justify-content: center;
-    font-size: large;
+    font-size: 20px;
     font-family:'Times New Roman', Times, serif;
 }
 
-.SouthBreakFast {
-   
+
+.South-img{
+  background-color: rgb(66, 108, 191);
   display: flex;
-  justify-content: center;
+  height: 220px;
+  width: auto;
   gap: 20px;
-  padding: 20px;
-  padding-left: 10px;
-  background: #578aa0;      
-  border-radius: 15px;
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  padding: 30px 20px;
+  justify-content: center;
+  border-radius: 10px;
 
-  max-height: 400px;   
-  overflow-y: auto;    
-  flex-wrap: wrap;     
+};
 
+.South-img img{
+   width: 100%;
+  height: auto;
+  border-radius: 8px;
+};
+.item {
+  display: flex;          /* make children align horizontally */
+  flex-wrap: wrap;        /* allow wrapping to next line if too many */
+  gap: 10px;              /* space between buttons */
 }
 
-.SouthBreakFast img {
-  width: 200px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 12px;
-  transition: transform 0.3s, box-shadow 0.3s;
+.all {
+  /* optional, remove block behavior */
+  display: inline-block;
 }
 
-.SouthBreakFast img:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 6px 18px rgba(0,0,0,0.3);
+.recipe-buttons {
+  height: 350px;
+  margin-top: 30px;
+  padding: 10px 15px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  
 }
