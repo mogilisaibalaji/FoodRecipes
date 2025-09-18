@@ -1,21 +1,22 @@
 import React from "react";
 
+import "./Home.css";
 function Home(){
     return(
         <>
-            <div className="Logo" width="100px">
-                <img src="/download.jpeg" alt="logo" width="50px" height="50px" />
+       
+            <div className="Logo">
+                <img className="LogoImg " src="/download.jpeg" alt="logo" />
                 <input className="InputBox" type="Text" placeholder="Enter the Recipe"/>
             </div>
-            <h3>South Indian Break Fast</h3>
+            <h3 className="label">South Indian Break Fast</h3>
             <div className="SouthBreakFast">
-                <img src="/dosa.jpeg"/>
-                <img src="/idly.jpeg"/>
-                <img src="/vada.jpeg"/>
-                <img src="/pongal.jpeg"/>
-                <img src="/upma.jpeg"/>
-             
+                <img src="/dosa.jpeg" alt="dosas" />
+                <img src="/idly.jpeg" alt="idly"  />
+                <img src="/vada.jpeg" alt="vada" />
+                <img src="/pongal.jpeg" alt="pongal" />
             </div>
+             <div style={{ height: '2000px' }} />
         </>
     )
 }

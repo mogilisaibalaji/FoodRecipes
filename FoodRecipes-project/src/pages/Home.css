@@ -1,0 +1,78 @@
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  height: auto;
+  overflow-y: auto !important; 
+}
+
+
+
+
+.Logo{
+    width:auto;
+    height: fit-content;
+    display: flex;
+    padding: 30px 40px;
+    justify-content: center;
+    margin-top: 40px;
+    
+    
+}
+
+.LogoImg{
+    width :100px;
+    height: 100px;
+    display: flex;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: rgb(red, rgb(23, 149, 207), rgb(25, 25, 169));
+    
+}
+
+.InputBox{
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 30px;
+   
+}
+
+.label{
+    margin-left: 45%;
+    justify-content: center;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.SouthBreakFast {
+   
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  padding-left: 10px;
+  background: #578aa0;      
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+
+  max-height: 400px;   
+  overflow-y: auto;    
+  flex-wrap: wrap;     
+
+}
+
+.SouthBreakFast img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.SouthBreakFast img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.3);
+}

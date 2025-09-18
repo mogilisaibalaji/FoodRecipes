@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import About from './pages/About';
 import Home from './pages/Home';
 import Categories from './pages/Categories';
-
+import "./App.css";
 export default function App() {
   return (
     <BrowserRouter>
