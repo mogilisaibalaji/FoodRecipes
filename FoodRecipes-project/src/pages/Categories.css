@@ -1,0 +1,8 @@
+body {
+  background-image: url("Food.jpeg"); /* no leading slash */
+  background-size: cover;             /* fills the screen */
+  background-repeat: no-repeat;       /* no tiling */
+  background-position: center;        /* centered */
+  height: 100vh;
+  margin: 0;
+}

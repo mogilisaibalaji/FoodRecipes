@@ -1,4 +1,6 @@
-function Categories() {
-  return <h1>Categories Page</h1>;
+import "./Categories.css";
+export default function Categories() {
+  return (
+    <img src="./Food.jpeg" />
+  )
 }
- export default Categories;
